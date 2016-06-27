@@ -17,6 +17,10 @@ func main() {
 	for _, w := range ws {
 		fmt.Println(w)
 	}
+	fmt.Println()
+	fmt.Printf("H: %.2f\n", ws.H())
+	fmt.Printf("avg:: %.2f\n", ws.Avg())
+	fmt.Printf("efficiency: %.2f%%\n", (ws.H()/ws.Avg())*100)
 }
 
 func right(ws Weights) {
