@@ -19,7 +19,7 @@ func main() {
 	}
 	fmt.Println()
 	fmt.Printf("H: %.2f\n", ws.H())
-	fmt.Printf("avg:: %.2f\n", ws.Avg())
+	fmt.Printf("avg: %.2f\n", ws.Avg())
 	fmt.Printf("efficiency: %.2f%%\n", (ws.H()/ws.Avg())*100)
 }
 
